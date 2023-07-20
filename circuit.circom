@@ -10,7 +10,7 @@ pragma circom 2.0.0;
 
 template F() {
     signal input x;
-    signal input y;
+    signal input ys;
     signal output o;
 
     signal m1 <== x * x;
